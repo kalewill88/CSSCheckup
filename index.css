@@ -1,0 +1,13 @@
+/* rule-set #1: Everything within the body tag will have a teal background. */ body {background-color: teal;}
+/* rule-set #2: All text in travel-info will be white and roboto. */ .travel-info{font-size: 20px; font: Roboto; color:  white;}
+/* rule-set #3: Id will be white, italic, roboto 30px. */#one{font-style: italic; font-size: 30px; font: Roboto; color: white; text-align: center;}
+/* rule-set #4: h1 will be white, bold, roboto, 60px. */ h1{font-style: bold; font-size: 60px; font: Roboto; color: white;text-align: center;}
+/* rule-set #5: Padding around .travel-info border. */.travel-info{border: 5px groove lightsalmon;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 20px 20px 20px 20px;}
+/* rule-set #6: Center align all <p>. */ p{text-align: center;}
+/* rule-set #7: Make picture 500px x 500px. */ img{width: 500px;height: 300px;}
+.center{display: block; margin-left: auto; margin-right: auto;width: 50%;}
